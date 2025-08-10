@@ -479,49 +479,38 @@
         - #CERTIFICATIONS
       -->
 
-      <article class="certifications" data-page="certification">
+<article class="certifications" data-page="certifications"> <!-- Fixed: "certification" → "certifications" -->
+  <header>
+    <h2 class="h2 article-title">Certifications</h2>
+  </header>
 
-        <header>
-          <h2 class="h2 article-title">Certifications</h2>
-        </header>
+  <section class="certifications-list"> <!-- Changed to match CSS -->
+    <ul class="certifications-list"> <!-- Changed to match CSS -->
 
-        <section class="certification-posts">
+      <li class="certification-item"> <!-- Changed to match CSS hover effects -->
+        <a href="#">
+          <figure class="certification-banner-box">
+            <img src="./assets/images/coming-soon.png" alt="AWS Certification" loading="lazy">
+          </figure>
 
-          <ul class="certification-posts-list">
+          <div class="certification-content">
+            <div class="certification-meta">
+              <p class="certification-category">AWS Cloud Practitioner</p>
+              <span class="dot"></span>
+              <time datetime="2025-09-25">Sept 25, 2025</time> <!-- Fixed date format -->
+            </div>
 
-            <li class="certification-post-item">
-              <a href="#">
+            <h3 class="certification-title">Amazon Cloud Services</h3> <!-- Changed class -->
+            <p class="certification-text">
+              AWS Cloud
+            </p>
+          </div>
+        </a>
+      </li>
 
-                <figure class="certification-banner-box">
-                  <img src="./assets/images/coming-soon.png" alt="AWS Certification" loading="lazy">
-                </figure>
-
-                <div class="certification-content">
-
-                  <div class="certification-meta">
-                    <p class="certification-category">AWS Cloud Practitioner</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Sept 25, 2025</time>
-                  </div>
-
-                  <h3 class="h3 certification-item-title">Amazon Cloud Services</h3>
-
-                  <p class="certification-text">
-                    AWS Cloud
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
+    </ul>
+  </section>
+</article>
 
 
 
